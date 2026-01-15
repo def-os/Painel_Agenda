@@ -61,8 +61,8 @@ dados3 <- PLs_em_tramitação_na_CSAUDE_02_01_2026 |>
       TRUE ~ "Outros"
     )
   )
-# Exportar para Excel
 
 write_xlsx(lista_resultados, "Resultados_Analise_PLs.xlsx")
+
 
 cat("Arquivo 'Resultados_Analise_PLs.xlsx' criado com sucesso!\n")
